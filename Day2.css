@@ -1,0 +1,51 @@
+
+html {
+ box-sizing:border-box;
+ font-size:62.5%;
+}
+body {
+ font-family:Mulish,sans-serif;
+ color: rgb(12, 12, 11);
+ font-weight:400;
+ line-height:1.6;
+}
+.container-group .leadership {
+ padding-top:4.0rem;
+ background:linear-gradient(180deg,rgba(249,250,251,.7) 0,rgba(245,249,231,.7) 100%)
+}
+@media only screen and (min-width:600px) {
+ .container-group .leadership {
+  padding-top:7.0rem;
+ }
+}
+.container-group .leadership h1 {
+ font-weight:600;
+ font-size:3.0rem;
+ line-height:4.0rem;
+ color:#2c3134;
+ padding-bottom:2.5rem;
+}
+@media only screen and (min-width:600px) {
+ .container-group .leadership h1 {
+  padding-bottom:5.0rem;
+  font-size:3.5rem;
+  line-height:4.0rem;
+  text-align:center;
+ }
+}
+.container-group .leadership .leaderGrid {
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(30rem,1fr));
+    grid-gap:3.5rem;
+   }
+.container-group .leadership .leaderGrid .leaderPad {
+    padding:2.5rem;
+    background-color:#fff;
+    min-height:40rem;
+    position:relative;
+    font-size: 15px;
+    display:block;
+   }
+   .round {
+    border-radius: 50%;
+  }
